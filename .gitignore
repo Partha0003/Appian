@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# ADDED: Data Science Inputs & Outputs
+# ==========================================
+
+# 1. Ignore Data Files (Input/Output)
+*.csv
+*.xlsx
+*.txt
+*.tsv
+
+# 2. Ignore Python Generated Models (If you save them)
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# 3. Ignore Python System Files (Since you ran Python code)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
